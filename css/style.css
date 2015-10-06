@@ -1,0 +1,39 @@
+/*----- GENERAL -----*/
+BODY				{ width: 100%; height: 100%; margin: 0; padding: 0; }
+*					{ font-family: 'Open Sans', 'sans-serif'; }
+
+#wrapper			{ width: 100%; margin: 0; padding: 0; }
+#header				{ width: 100%; height: auto; background-color: #140057; }
+#main				{ width: 100%; height: auto; background-color: #ffffff; }
+#download			{ width: 340px; height: 53px; display: block; margin: 0 auto 50px auto; border-radius: 5px; background-color: #f8e71c; color: #000000; font-size: 18px; font-weight: 300; line-height: 53px; }
+.inside				{ width: 92%; max-width: 960px; padding: 70px 0; margin: 0 auto; }
+.clear				{ clear: both; }
+
+	@media only screen and (max-width: 640px) {
+	#download		{ margin: 0 auto 25px auto; }
+	.inside			{ padding: 50px 0; }
+	}
+
+/*----- FONTS -----*/
+p					{ font-size: 14px; font-weight: 300; line-height: 140%; color: #333333; text-align: center; }
+a					{ text-decoration: none; color: #140057; font-weight: 600; transition: color 0.2s ease-in; }
+a:hover				{ text-decoration: none; color: #333333; }
+.red				{ color: #be5041; }
+.bold				{ font-weight: 600; }
+
+H1					{ font-size: 32px; font-weight: 300; line-height: 120%; margin: 0 0 20px 0; color: #ffffff; text-align: center; }
+H2					{ font-size: 20px; font-weight: 300; line-height: 150%; margin: 0; color: #ffffff; text-align: center; }
+
+	@media only screen and (max-width: 640px) {
+	H1				{ font-size: 24px; margin: 0 0 20px 0; }
+	H2				{ font-size: 15px; }
+	}
+
+/*----- IMAGES -----*/
+IMG					{ border: 0; }
+.icon				{ width: 124px; height: 124px; display: block; margin: 0 auto 40px auto; border-radius: 20px; }
+.store				{ width: 145px; height: 53px; margin: 0 20px 0 0; border-top-left-radius: 5px; border-bottom-left-radius: 5px; float: left; }
+
+/*----- BUTTONS -----*/
+.button					{ width: auto; height: 50px; padding: 0 20px; margin: 0; float: left; font-size: 16px; font-weight: 300; color: #ffffff; line-height: 50px; border: none; transition: background 0.2s ease-in; }
+.button:hover			{ background-color: #81b9da; }
